@@ -88,8 +88,23 @@ body {
   margin-bottom: 30px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1900px) {
   .logo {
     display: block;
   }
+}
+
+/*Email confirmation view code */
+.emal-confirmation-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+}
+
+.logo-email {
+  background-color: var(--text-input-field);
+}
+
+.resend {
+  color: #acd9b2;
 }
